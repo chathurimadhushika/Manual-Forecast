@@ -8,7 +8,7 @@ import io
 from datetime import datetime
 import os
  
-connection = psycopg2.connect(host='vbp-wg-1.124008826013.ap-southeast-1.redshift-serverless.amazonaws.com',port = '5439', user='analytic_user_1', password='AnalyticUser2023#', database='dev')
+connection = psycopg2.connect(host='vbp-wg-1.124008826013.ap-southeast-1.redshift-serverless.amazonaws.com',port = '5439', user='>', password='', database='dev')
 cursor = connection.cursor()
  
  
